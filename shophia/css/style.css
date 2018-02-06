@@ -1,0 +1,719 @@
+body{
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000;
+    min-width: 320px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+.btn-red{
+    background: #f0975c;
+    color: #fff;
+}
+.btn-red:hover{
+    background: #d9bf8f;
+}
+/*============================header==============================*/
+/*==================menu-top=======================*/
+.menu-top .navbar{
+    margin-bottom: 0;
+    background: #f2f2f2;
+    font-size: 11px;
+}
+.navbar-default p.navbar-nav{
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    text-decoration: underline;
+}
+.menu-top .navbar .navbar-right{    
+    text-transform: uppercase;
+}
+.menu-top .container,
+.menu-top .navbar-collapse{
+    /*padding-left: 0;*/
+}
+.delimeter{
+    position: relative;
+    top: -1px;
+    left: -14px;
+}
+.menu-carousel .item img{
+    /*min-height: 692px;*/
+    margin: 0 auto;
+}
+.menu-carousel .item{
+    background: #b2aca6;
+}
+/*.menu-carousel .bgslide{
+    background-size: cover;
+    background-position: 20% top;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}*/
+.menu-carousel .carousel-caption{
+    margin-bottom: 30px;
+}
+.menu-carousel .carousel-caption h1{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 59px;
+}
+.menu-carousel .carousel-caption h3{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu-carousel .carousel-caption h2{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+.menu-carousel .carousel-caption .border-carousel{
+    border-style: double;
+    border-width: 7px;
+    /*padding: 5px 0 18px;*/
+    text-shadow: none;
+    width: 285px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.menu-carousel .carousel-caption .btn-red{
+    padding: 11px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: none;
+    font-size: 24px;
+    background-color: #f09d66;
+}
+.menu-carousel .carousel-caption .btn-red:hover{
+    text-decoration: none;
+    background-color: #f0975c;
+    color: #fff;
+}
+.carousel-indicators-wrap .carousel-indicators li{
+    background: #b2b2b2;
+    border: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 0;
+    margin: 0 5px;
+    -moz-transform: rotate(45deg); /* Для Firefox */
+    -ms-transform: rotate(45deg); /* Для IE */
+    -webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(45deg); /* Для Opera */
+    transform: rotate(45deg);
+}
+.carousel-indicators-wrap .carousel-indicators li.active{
+    width: 12px;
+    height: 12px;
+    background: #000;
+    /*margin: 1px;*/
+}
+
+/*===========main-menu============*/
+.main-menu .container{
+    /*margin-left: 0;*/
+}
+.main-menu .navbar{
+    background: #fff;
+    border: none;
+    padding: 43px 0;
+    margin-bottom: 0;
+}
+.main-menu .navbar li a{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+.main-menu .navbar li a img{
+    margin-top: -7px;
+}
+.main-menu .navbar .navbar-right li a{
+    padding-left: 3px;
+    padding-right: 3px; 
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.main-menu .navbar .navbar-right li.dropdown{
+    padding-left: 55px;
+}
+.main-menu .navbar a.navbar-brand{
+    margin-left: 10%;
+    margin-top: -8px;
+}
+
+/*=============main-notification===========*/
+.banner-row{
+    margin-top: 66px;
+}
+.main-notification .container{
+    /*overflow: hidden;*/
+    /*height: 50px;*/
+    /*outline: 1px solid green;*/
+    /*width: 90%;*/
+    /*margin: 66px auto 0;*/
+}
+.main-notification .col-sm-4{
+    height: 100px;
+}
+.main-notification .col-sm-4.first{
+    background-image: url(../img/arrow1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    z-index: 2;
+}
+.main-notification .col-sm-4.three{
+    background-image: url(../img/arrow2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-notification .notification-img{
+    padding: 30px 21px 0 40px;
+}
+.main-notification .first,
+.main-notification .three{
+    /*background: #d9bf8f;*/
+}
+.main-notification .second{
+    background: #000;
+}
+/*.main-notification .second{
+    margin-left: -15px;
+    margin-right: -15px;
+}*/
+.main-notification .second img.img_arrow2{
+    position: absolute;
+    left: 0;
+}
+.main-notification .second img.img_arrow3{
+    position: absolute;
+    right: 0;
+}
+.main-notification .notification-img,
+.main-notification .notification-text{
+    float: left;
+}
+.main-notification .notification-text h2{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.main-notification .notification-text h3{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+/*===========content==========*/
+.main-content .container .content .delimeter{
+    left: 0;
+    margin-top: 17px;
+}
+.main-content .container .content .delimeter .row .col-sm-1 img{
+    margin-top: 4px;
+}
+.main-content .container .content .delimeter .row .col-sm-3{
+    margin-top: -6px;
+}
+.main-content .container .content .delimeter .row .col-sm-4 hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #eaeaea; /* Цвет линии для остальных браузеров */
+    background-color: #eaeaea; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+.main-content .container .content .delimeter .row .col-sm-4 h3{
+    text-align: center;
+}
+.main-content .container .content .div-products{
+    border: 1px solid #eaeaea;
+    padding: 0 5px;
+    margin-bottom: 50px;
+}
+.sidebar{
+    padding: 50px 0 70px;
+    /*border-right: 1px solid #eaeaea;*/
+}
+.widget{
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.widget h3,
+.content h3{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.widget h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+.widget ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.widget ul li a{
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+}
+.widget ul li.more a{
+    color: #f09d66;
+}
+.content{
+    padding: 50px 0 70px;
+}
+.product{
+    background: #fff;
+    border: 1px solid #eaeaea;
+    text-align: center;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    transition: all .5s;
+}
+.product:hover{
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.discounts{
+    background: #FEAB12;
+    border-radius: 50%;
+    color: #fff;
+    height: 55px;
+    left: 0;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+.discounts-text{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding: 14px 3px 14px 14px;
+    margin: 0;
+}
+.discounts-percent{
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    padding-top: 20px;
+}
+.products-row{
+    margin: 20px 0;
+}
+.product-img{
+    /*height: 348px;*/
+    margin-bottom: 10px;
+    width: 100%;
+}
+.product-title a{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.product-title{
+    padding: 0 5px;
+    max-height: 40px;
+    overflow: hidden;
+}
+.product-desc{
+    max-height: 38px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.product-price{
+    color: #F0975C;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px
+}
+.product-buy{
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.product-buy .btn{
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+.product-buy .btn:hover{
+    background: #F0975C;
+}
+/*=====my_brands===*/
+.my_brands{
+    margin-bottom: 20px;
+}
+/*============footer=============*/
+.footer-menu .container{
+    border-bottom: 1px solid #363636;
+    padding-bottom: 70px;
+}
+.footer-menu,
+.footer-copyright{
+    background: #141414;
+    padding: 30px 0;
+}
+.footer-menu h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.footer-menu h5 span{
+    font-family: 'Playfair Display', serif;
+    text-transform: none;
+    padding: 0 5px;
+}
+.footer-menu .stay_connected{
+    padding-bottom: 10px;
+}
+.footer-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-menu ul li a{
+    color: #737373;
+    line-height: 32px;
+}
+.footer-menu .social-icons{
+    padding: 25px 0;
+}
+.footer-menu .social-icons a{
+    padding-right: 14px;
+}
+.footer-menu .input-group{
+    padding-top: 20px;
+}
+.footer-menu .input-group .form-control{
+    background: #141414;
+    border-color: #484848;
+}
+.footer-menu .input-group .input-group-addon{
+    background: #323030;
+    color: #fff;
+    border-color: #484848;
+}
+.footer-copyright .footer-text p{
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.footer-copyright{
+    padding: 0;
+    padding-bottom: 80px;
+}
+.footer-copyright p{
+    color: #363636;
+}
+.footer-copyright .footer-text{
+    padding-bottom: 20px;
+}
+.footer-copyright .footer-icons{
+    padding-left: 5px;
+}
+.footer-copyright .footer-icons a{
+    padding-right: 25px;
+}
+.footer-end{
+    background: #000;
+    height: 40px;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    .main-menu .navbar a.navbar-brand{
+        margin-left: 3%;
+    }
+    .product{
+        height: 450px;
+    }
+    .main-notification .notification-text h2{
+        font-size: 17px;
+    }
+    .main-notification .notification-text h3{
+        font-size: 12px;
+    }
+    .main-content .container .content .delimeter .row .col-sm-4 h3{
+        font-size: 24px;
+    }
+    .footer-menu .social-icons a{
+        padding-right: 5px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    .main-notification .notification-text h2{
+        font-size: 16px;
+    }
+    .main-notification .notification-text h3{
+        font-size: 12px;
+    }
+    .main-menu .navbar a.navbar-brand img{
+        height: 36px;
+        width: 114px;
+        margin-top: 7px;
+    }
+    .main-menu .navbar a.navbar-brand{
+        margin-left: 3%;
+        padding: 0;
+    }
+    .main-menu .navbar .navbar-right li.dropdown{
+        padding-left: 0;
+    }
+    .sidebar{
+        padding-bottom: 0;
+        padding-top: 0;
+        border-right: none;
+    }
+    .menu-carousel .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .menu-carousel .carousel-caption h3{
+        font-size: 10px;
+    }
+    .menu-carousel .carousel-caption h2{
+        font-size: 16px;
+    }
+    .menu-carousel .carousel-caption .border-carousel{
+        border-width: 7px;
+        /*padding: 5px 0 18px;*/
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .menu-carousel .carousel-caption .btn-red{
+        padding: 11px 30px;
+        font-size: 12px;
+    }
+    /*    .main-notification .notification-text h2{
+            outline: 1px solid blue;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            padding-top: 5px;
+            text-transform: uppercase;
+        }
+        .main-notification .notification-text h3{
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            margin-top: 0;
+        }*/
+    .main-content .col-md-3{
+        margin-left: 14px;
+    }
+    .main-notification .notification-text{
+        padding-top: 7px;
+    }
+    .main-notification .notification-img{
+        padding: 30px 7px 0 33px;
+    }
+    .main-notification .notification-text h2{
+        font-size: 13px;
+    }
+    .main-notification .notification-text h3{
+        font-size: 9px;
+    }
+    .content{
+        padding: 50px 0 25px;
+    }
+}
+
+/* Small Devices, Tablets */
+/*@media only screen and (max-width : 768px) {
+    .menu-carousel .carousel-caption .border-carousel{
+        width: 227px;
+    }
+    .menu-carousel .carousel-caption{
+        line-height: 10px;
+    }
+    .menu-carousel .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 3px;
+    }
+    .menu-carousel .carousel-caption h3{
+        font-size: 8px;
+        line-height: 3px;
+        margin: 15px;
+    }
+    .menu-carousel .carousel-caption h2{
+        font-size: 12px;
+        line-height: 3px;
+    }
+    .menu-carousel .carousel-caption .border-carousel{
+        border-width: 5px;
+        padding: 5px 0 18px;
+        width: 120px;
+        margin-bottom: 15px;
+    }
+    .menu-carousel .carousel-caption .btn-red{
+        padding: 11px 30px;
+        font-size: 7px;
+    }
+        .main-notification .second .clock{
+            padding-left: 15px;
+        }
+    .main-notification .notification-text h2{
+        font-size: 13px;
+    }
+    .main-notification .notification-text h3{
+        font-size: 9px;
+    }
+        .main-notification .col-sm-4.first,
+        .main-notification .col-sm-4.three{
+            background-image: none;
+            background: #d9bf8f;
+        }
+    .content{
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .sidebar{
+        margin: 20px 0 0 7px;
+    }
+}*/
+
+@media only screen and (max-width : 767px) {
+    .menu-top .navbar-default .navbar-nav > li > a:hover{
+        background: #fff;
+    }
+    .menu-top .container,
+    .menu-top .navbar-collapse,
+    .navbar-default p.navbar-nav{
+        padding-left: 15px;
+    }
+    .main-menu .navbar-default .navbar-nav > li > a:hover{
+        text-decoration: none;
+        background: #f2f2f2;
+    }
+    .main-menu .navbar-default a.navbar-brand img{
+        margin-left: 15px;
+    }
+    .main-menu .navbar-default .navbar-nav > li > a > img,
+    .main-menu .navbar-default .navbar-nav > li.dropdown{
+        margin-left: 12px;
+    }
+    .main-notification .col-sm-4.first,
+    .main-notification .col-sm-4.three{
+        background-image: none;
+        background: #d9bf8f;
+    }
+    .main-content .col-md-3{
+        margin-left: 12px;
+    }
+    .product{
+        margin-bottom: 10px;
+        height: 560px;
+    }
+    .my_brands img{
+        margin: 0 auto;
+    }
+    .menu-carousel .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 10px;
+        margin: 12px;
+    }
+    .menu-carousel .carousel-caption h3{
+        font-size: 12px;
+        line-height: 10px;
+        margin: 10px;
+    }
+    .menu-carousel .carousel-caption h2{
+        font-size: 15px;
+        line-height: 10px;
+        margin: 10px;
+    }
+    .menu-carousel .carousel-caption .border-carousel{
+        border-width: 3px;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width : 563px) {
+    .sidebar .col-xs-6{
+        width: 100%;
+    }
+    .main-content .col-md-3{
+        margin-left: 12px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    /*    .menu-carousel .carousel-caption h1{
+            font-size: 50px;
+        }
+        .menu-carousel .carousel-caption h3{
+            font-size: 17px;
+        }
+        .menu-carousel .carousel-caption h2{
+            font-size: 26px;
+        }*/
+    .menu-carousel .carousel-caption .border-carousel{
+        /*width: 227px;*/
+    }
+    .menu-carousel .carousel-caption{
+        /*line-height: 10px;*/
+        margin-bottom: 10px;
+    }
+    .menu-carousel .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 1px;
+        margin: 12px;
+    }
+    .menu-carousel .carousel-caption h3{
+        font-size: 8px;
+        line-height: 1px;
+        margin: 10px;
+    }
+    .menu-carousel .carousel-caption h2{
+        font-size: 10px;
+        line-height: 1px;
+        margin: 10px;
+    }
+    .menu-carousel .carousel-caption .border-carousel{
+        border-width: 3px;
+        /*padding: 5px 0 18px;*/
+        width: 90px;
+        margin-bottom: 7px;
+        /*height: 40px;*/
+    }
+    .menu-carousel .carousel-caption .btn-red{
+        padding: 7px 15px;
+        font-size: 9px;
+    }
+}
